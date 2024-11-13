@@ -19,4 +19,9 @@ class CustomerServiceTest {
     void testRetrieveCustomerAndSendMessage(){
         customerService.retrieveCustomerAndSendMessage(1001L);
     }
+
+    @Test
+    void test(){
+    }
+    
 }
