@@ -1,6 +1,6 @@
 package com.onboarding.domain.services;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class SNSMessageSenderTest {
 
