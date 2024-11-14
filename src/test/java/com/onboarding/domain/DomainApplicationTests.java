@@ -11,7 +11,7 @@ class DomainApplicationTests {
 	}
 
 	@Test
-	void testSimpleTestGradle95(){
-
+	void testImportantStuff() {
 	}
+
 }
