@@ -16,7 +16,12 @@ class CustomerServiceTest {
     @InjectMocks CustomerService customerService;
 
     @Test
+    void test(){
+    }
+    @Test
     void testRetrieveCustomerAndSendMessage(){
         customerService.retrieveCustomerAndSendMessage(1001L);
     }
+
+    
 }
