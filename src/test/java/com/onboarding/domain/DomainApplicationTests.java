@@ -10,4 +10,9 @@ class DomainApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void test(){
+		
+	}
+		
 }
