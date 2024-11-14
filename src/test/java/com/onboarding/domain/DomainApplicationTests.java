@@ -10,4 +10,8 @@ class DomainApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void testSimpleTestGradle95(){
+
+	}
 }
