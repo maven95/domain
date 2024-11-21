@@ -11,7 +11,8 @@ class DomainApplicationTests {
 	}
 
 	@Test
-	void testImportantStuff() {
+	void test(){
+		
 	}
-
+		
 }
