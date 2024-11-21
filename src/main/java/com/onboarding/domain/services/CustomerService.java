@@ -13,9 +13,6 @@ public class CustomerService {
     @Autowired SQSMessageSender sqsMessageSender;
 
     public Customer retrieveCustomerAndSendMessage(Long customerId){
-        if(customerId < 0){
-            throw new IllegalArgumentException("Invalid Customer Id");
-        }
         Customer customer = customerRestClient.getCustomer(customerId);
 
         if(customer.isSnsUser()){
